@@ -17,6 +17,9 @@
 
     </item>
 
+
+
+
     <item android:left="20dp"
     android:right="20dp"
     android:top="40dp"
@@ -29,7 +32,19 @@
 
 
     </item>
+    <item android:left="20dp"
+        android:right="20dp"
+        android:top="40dp"
+        android:bottom="0dp"
+        android:drawable="@drawable/img_de_fundo"
+        >
 
+
+
+
+
+
+    </item>
 
 
 

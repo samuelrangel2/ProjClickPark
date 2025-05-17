@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="butonholder">
+
+        <item name="background">@drawable/drwbuttonframe</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginBottom">50dp</item>
+
+
+
+
+
+
+
+    </style>
+    <style name="logo">
+        <item name="background">@drawable/drwbuttonframe</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginTop">35dp</item>
+
+
+    </style>
+
+    <style name="buttons">
+
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_marginTop">35dp</item>
+
+
+    </style>
+
+
+</resources>

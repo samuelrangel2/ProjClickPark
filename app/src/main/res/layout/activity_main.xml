@@ -11,13 +11,65 @@
 
     >
 
+    <FrameLayout
+        android:id="@+id/flfragmentholder"
+        android:name="qi.projeto.whatev.clickpark.HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </FrameLayout>
     <View
         android:id="@+id/view"
         style="@style/butonholder"
-        android:layout_marginBottom="52dp"
+
 
         android:background="@drawable/drwbuttonframe"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/btnAdicionar"
+        style="@style/buttons"
+
+        android:layout_width="104dp"
+        android:layout_height="115dp"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnRecarga"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnHome"
+        app:srcCompat="@drawable/adicionar" />
+
+    <ImageView
+        android:id="@+id/btnRecarga"
+        style="@style/buttons"
+
+
+        android:layout_width="83dp"
+        android:layout_height="86dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:srcCompat="@drawable/recarga" />
+
+    <ImageView
+        android:id="@+id/btnHome"
+        android:layout_width="98dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:srcCompat="@drawable/home" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
