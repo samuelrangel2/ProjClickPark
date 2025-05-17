@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="black_lightend">#FF222222</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#FFAAAAAA</color>
     <color name="blue">#FF38B6FF</color>   <!-- Blue -->

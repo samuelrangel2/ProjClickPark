@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/drwfundo"
+    android:background="@drawable/drw_fundo"
 
 
 
@@ -26,10 +26,10 @@
     </FrameLayout>
     <View
         android:id="@+id/view"
-        style="@style/butonholder"
+        style="@style/button_frame"
 
 
-        android:background="@drawable/drwbuttonframe"
+        android:background="@drawable/drw_buttonframe"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -37,7 +37,6 @@
 
     <ImageView
         android:id="@+id/btnAdicionar"
-        style="@style/buttons"
 
         android:layout_width="104dp"
         android:layout_height="115dp"
@@ -50,7 +49,6 @@
 
     <ImageView
         android:id="@+id/btnRecarga"
-        style="@style/buttons"
 
 
         android:layout_width="83dp"
