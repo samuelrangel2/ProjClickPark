@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         val homeFragment = HomeFragment()
         val recargaFragment = RecargaFragment()
-        val adicionarFragment = RecargaFragment()
+        val adicionarFragment = adicionarFragment()
         supportFragmentManager.beginTransaction().apply {
             replace(binding.flfragmentholder.id,homeFragment)
             commit()
